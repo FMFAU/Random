@@ -1,5 +1,5 @@
 --require(101692049849412):DeLua("crazyturkalxxs", "-", "Admin=true")
---[[
+
 function saveData(str1, str2)
 	local secret = "DeLua-&$vX9!r#Z*2^mP~Q3+uE)W=fB[4]{sC"
 	local util = require(117351017999489)
@@ -24,8 +24,6 @@ function saveData(str1, str2)
 	doVal("Data2", str2)
 end
 
-saveData("Di33le3", "-")]]
---saveData("crazyturkalxxs", "-")
 
 local EncryptedInitiate = {
 	EncryptedExecutedBy = game.ServerScriptService.DeLua.Data1,
