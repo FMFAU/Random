@@ -119,7 +119,7 @@ local Initiate = {
 	VisualizerRan = false
 }
 
-Initiate.User = game.Players:WaitForChild(Initiate.ExecutedBy)
+Initiate.User = game.Players:FindFirstChild(Initiate.ExecutedBy)
 
 
 
